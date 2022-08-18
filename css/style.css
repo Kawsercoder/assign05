@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    min-height: 400px;
+
+}
+
+
+section{
+    width: 1400px ;
+    margin-left: auto;
+    margin-right: auto ;
+    align-items: center;
+    
+
+}
+
+.logo{
+    max-width: 10%;
+    flex-basis: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.logo img{
+
+    width: 150px;
+}
+
+
+.navigation{
+    max-width: 100%;
+    flex-basis: 100%;
+    background-color: black;
+    
+
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    
+ }
+
+ .menu li{
+    
+
+}
+
+.menu li a{
+
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+ 
+}
+
+.banner-section{
+
+    background-color: rgba(14, 22, 22, 0.257);
+    background-image: url(../images/banner-section.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode: color;
+    position: relative;
+
+}
+
+.banner-section .container{
+    min-height: 600px;
+    
+
+}
+
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+
+
+}
+
+.banner-section .container h1{
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    
+}
+
+
+.Flexfit-section{
+
+     
+
+
+
+}
+
+
+.col-2-1{
+    
+    max-width: 30%;
+    flex-basis: 50%;
+    padding: 200px;
+    box-sizing: border-box;
+    
+}
+
+
+.col-2-1 h1{
+
+     text-align: center;
+     font-size: 40px;
+     font-weight: 500;
+     
+
+}
+
+.col-2-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    
+
+}
+
+
+.image-fit img{
+    max-width: 500px;
+    
+    
+    
+}
